@@ -9,7 +9,7 @@
     
     <script>
       const sampleJSONElement = document.getElementById(`sampleJSON`);
-      fetch('./sample.json')
+      fetch('http://127.0.0.1:8125/sample.json')
         .then((response) => response.json())
         .then((data) => {
           const sampleText = JSON.stringify(data);
