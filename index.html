@@ -5,5 +5,20 @@
   </head>
   <body>
     <h1>index</h1>
+    <div id="sampleJSON"></div>
+    
+    <script>
+      const sampleJSONElement = document.getElementById(`sampleJSON`);
+      fetch('./sample.json')
+        .then((response) => response.json())
+        .then((data) => {
+          const sampleText = JSON.stringify(data);
+          sampleJSONElement.appendChild(sampleText);
+        })
+        .catch((err) => {
+          const errorText = document.createTextNode("error fetching sample JSON");
+          sampleJSONElement.appendChild(errorText);
+        });
+    </script>
   </body>
 </html>
