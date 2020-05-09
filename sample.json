@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "5eb61a3926937556ec1023f2",
+    "index": 0,
+    "picture": "https://placekitten.com/256/256",
+    "latitude": 19.096512,
+    "longitude": 41.308892,
+    "tags": [
+      "ad",
+      "ex",
+      "qui"
+    ]
+  },
+  {
+    "_id": "5eb61a395d08836aa9dd057d",
+    "index": 1,
+    "picture": "https://placekitten.com/256/256",
+    "latitude": -17.046421,
+    "longitude": 36.875399,
+    "tags": [
+      "ullamco",
+      "est",
+      "ut"
+    ]
+  },
+  {
+    "_id": "5eb61a39beacaedb774d211d",
+    "index": 2,
+    "picture": "https://placekitten.com/256/256",
+    "latitude": 22.339406,
+    "longitude": -169.724002,
+    "tags": [
+      "irure",
+      "est",
+      "magna"
+    ]
+  },
+  {
+    "_id": "5eb61a393c935c4ac0093730",
+    "index": 3,
+    "picture": "https://placekitten.com/256/256",
+    "latitude": 33.468657,
+    "longitude": 64.037425,
+    "tags": [
+      "incididunt",
+      "mollit",
+      "aliquip"
+    ]
+  },
+  {
+    "_id": "5eb61a39f69f8b44b30a4f8b",
+    "index": 4,
+    "picture": "https://placekitten.com/256/256",
+    "latitude": -20.846064,
+    "longitude": -118.131278,
+    "tags": [
+      "reprehenderit",
+      "ex",
+      "non"
+    ]
+  }
+]
