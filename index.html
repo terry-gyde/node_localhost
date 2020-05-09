@@ -5,15 +5,18 @@
   </head>
   <body>
     <h1>index</h1>
-    <div id="sampleJSON"></div>
+    <pre id="sampleJSON"></pre>
     
     <script>
       const sampleJSONElement = document.getElementById(`sampleJSON`);
-      fetch('http://localhost:8125/sample.json')
-        .then((response) => response.json())
-        .then((data) => {
-          const sampleText = JSON.stringify(data);
-          sampleJSONElement.appendChild(sampleText);
+      fetch('./sample.json')
+        .then((response) => {
+          response.json()
+            .then((data) => {
+              const sampleJSONString = JSON.stringify(data, null, 2);
+              const sampleJSONText = document.createTextNode(sampleJSONString);
+              sampleJSONElement.appendChild(sampleJSONText);
+            })
         })
         .catch((err) => {
           const errorText = document.createTextNode("error fetching sample JSON");
